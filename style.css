@@ -1,0 +1,32 @@
+header {
+	padding: 20px 30px 30px;
+}
+
+p {
+	color:#CC66FF;
+	text-align: center;
+}
+
+aside section {
+	background-color: #00CC99;
+}
+
+header h1 {
+	font-size: 5em
+}
+
+article p {
+	columns: auto 12em
+}
+
+.odd_paragraphs {
+	background-color: #00CC99;
+}
+
+body {
+	background: -moz-linear-gradient(left,red,orange,yellow, green, blue,indigo,violet);
+	background: -webkit-linear-gradient(left,red,orange,yellow, green, blue,indigo,violet);
+	background: -ms-linear-gradient(left,red,orange,yellow, green, blue,indigo,violet);
+	background: -o-linear-gradient(left,red,orange,yellow, green, blue,indigo,violet);
+	background: linear-gradient(to right,red,orange,yellow, green, blue,indigo,violet);
+}
