@@ -24,9 +24,30 @@ article p {
 }
 
 body {
-	background: -moz-linear-gradient(left,red,orange,yellow, green, blue,indigo,violet);
-	background: -webkit-linear-gradient(left,red,orange,yellow, green, blue,indigo,violet);
-	background: -ms-linear-gradient(left,red,orange,yellow, green, blue,indigo,violet);
-	background: -o-linear-gradient(left,red,orange,yellow, green, blue,indigo,violet);
-	background: linear-gradient(to right,red,orange,yellow, green, blue,indigo,violet);
+	background: -moz-linear-gradient(blue, green);
+	background: -webkit-linear-gradient(blue, green);
+	background: -ms-linear-gradient(blue, green);
+	background: -o-linear-gradient(blue, green);
+	background: linear-gradient(to blue, green);
+}
+
+aside section p {
+	font-family: courier;
+	text-decoration: underline;
+	line-height: 1em;
+}
+
+.yellow{
+	color: yellow;
+}
+
+ul {
+	list-style-type: square
+}
+section img{
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	border-width: 2px;
+	border-color: black;
 }
